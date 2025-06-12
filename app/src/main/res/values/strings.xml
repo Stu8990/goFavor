@@ -13,11 +13,13 @@
 
     <string name="logo_desc">Logo de GoFavor</string>
     <string name="registro">Registro</string>
+    <string name="registrar">Registrar Administrador</string>
     <string name="nombre">Nombre</string>
     <string name="apellido">Apellido</string>
     <string name="correo">Correo Electrónico</string>
     <string name="cedula">Cédula de identidad</string>
     <string name="adjuntar_cedula">Adjuntar Imagen de Cédula</string>
+    <string name="adjuntar_perfil">Adjuntar Imagen de Perfil</string>
     <string name="tomar_selfie">Tomar Selfie con Cédula</string>
     <string name="contrasena">Contraseña</string>
     <string name="confirmar_contrasena">Confirmación de contraseña</string>
@@ -71,6 +73,68 @@
 
     <string name="tarea_1">Pasear perro</string>
     <string name="tarea_fecha_1">3 días</string>
+
+
+
+    <string name="retiro">Retiro</string>
+    <string name="icon_money">Icono de dinero</string>
+
+    <string name="subir_comprobante">Subir Comprobante</string>
+    <string name="aprobar">Aprobar</string>
+    <string name="rechazar">Rechazar</string>
+
+    <!-- Título -->
+    <string name="title_retiro">Retiro</string>
+
+    <!-- Labels -->
+    <string name="label_nombre">Nombre</string>
+    <string name="label_monto">Monto</string>
+    <string name="label_institucion">Institución</string>
+    <string name="label_num_cuenta">Número de Cuenta</string>
+    <string name="label_cedula">Cédula</string>
+    <string name="label_tipo">Tipo</string>
+    <string name="label_titular">Nombre del Titular</string>
+
+    <!-- Placeholders / valores -->
+    <string name="value_nombre">Nombre</string>
+    <string name="value_valor">Valor</string>
+
+    <!-- Botones -->
+    <string name="btn_subir">Subir Comprobante</string>
+    <string name="btn_aprobar">Aprobar</string>
+    <string name="btn_rechazar">Rechazar</string>
+    <string name="pendiente">Pendientes</string>
+    <string name="rechazado">Rechazadas</string>
+    <string name="realizadas">Realizadas</string>
+    <string name="AdminPerfil">Administración
+de Perfiles</string>
+    <!-- Título de la pantalla -->
+    <string name="title_perfiles">Administración de Perfiles</string>
+
+    <!-- Toggles -->
+    <string name="toggle_pendientes">Pendientes</string>
+    <string name="toggle_realizadas">Realizadas</string>
+    <string name="toggle_rechazadas">Rechazadas</string>
+
+    <!-- Perfil 1 -->
+    <string name="profile1_name">Caleb Castro</string>
+    <string name="profile1_phone">1234567890</string>
+    <string name="profile1_email">caleb@correo.com</string>
+
+    <!-- Perfil 2 -->
+    <string name="profile2_name">Susana Soria</string>
+    <string name="profile2_phone">0987654321</string>
+        <string name="profile2_email">susana@correo.com</string>
+
+    <!-- Perfil 3 -->
+    <string name="profile3_name">Mar Malek</string>
+    <string name="profile3_phone">1122334455</string>
+    <string name="profile3_email">mar@correo.com</string>
+
+    <!-- Perfil 4 -->
+    <string name="profile4_name">Oscar Ortiz</string>
+    <string name="profile4_phone">112223330</string>
+    <string name="profile4_email">oscar@correo.com</string>
 
 
 </resources>
