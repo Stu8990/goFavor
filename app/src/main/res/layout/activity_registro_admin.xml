@@ -230,18 +230,22 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
+    <!-- Barra Superior -->
     <LinearLayout
-        android:layout_width="407dp"
+        android:id="@+id/headerBar"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageLogo"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_gravity="center"
             android:contentDescription="@string/logo_desc"
             app:srcCompat="@drawable/image_removebg_preview" />
 
@@ -249,28 +253,35 @@
             android:id="@+id/nombreAPP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
             android:text="@string/app_name"
             android:textColor="#FFFFFF"
-            android:textSize="36sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/ic_notifications_black_24dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:id="@+id/imageNotifications"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bxs_user" />
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageUser"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/bxs_user"
+            app:tint="#FFFFFF" />
+
 
     </LinearLayout>
     <!-- BottomNavigationView -->
