@@ -71,7 +71,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
-        android:text="@string/title_perfiles"
+        android:text="@string/title_retiros"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="34sp"
@@ -155,7 +155,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    app:srcCompat="@drawable/bxs_id_card"
+                    app:srcCompat="@drawable/ic_payment"
                     app:tint="#1CF580" />
 
                 <LinearLayout
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile1_name"
+                        android:text="@string/retiro1_nombre"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -176,7 +176,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile1_phone"
+                        android:text="@string/retiro1_monto"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -185,7 +185,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile1_email"
+                        android:text="@string/retiro1_banco"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -204,7 +204,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    app:srcCompat="@drawable/bxs_id_card"
+                    app:srcCompat="@drawable/ic_payment"
                     app:tint="#1CF580" />
 
                 <LinearLayout
@@ -217,7 +217,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile2_name"
+                        android:text="@string/retiro2_nombre"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -226,7 +226,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile2_phone"
+                        android:text="@string/retiro2_monto"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -234,7 +234,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile2_email"
+                        android:text="@string/retiro2_banco"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -253,7 +253,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    app:srcCompat="@drawable/bxs_id_card"
+                    app:srcCompat="@drawable/ic_payment"
                     app:tint="#1CF580" />
 
                 <LinearLayout
@@ -265,7 +265,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile3_name"
+                        android:text="@string/retiro3_nombre"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -274,7 +274,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile3_phone"
+                        android:text="@string/retiro3_monto"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -283,7 +283,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile3_email"
+                        android:text="@string/retiro3_banco"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -301,7 +301,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    app:srcCompat="@drawable/bxs_id_card"
+                    app:srcCompat="@drawable/ic_payment"
                     app:tint="#1CF580" />
 
                 <LinearLayout
@@ -314,7 +314,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile4_name"
+                        android:text="@string/retiro4_nombre"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -323,7 +323,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile4_phone"
+                        android:text="@string/retiro4_monto"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -331,7 +331,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        android:text="@string/profile4_email"
+                        android:text="@string/retiro4_banco"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
                 </LinearLayout>
