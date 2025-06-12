@@ -136,5 +136,31 @@ de Perfiles</string>
     <string name="profile4_phone">112223330</string>
     <string name="profile4_email">oscar@correo.com</string>
 
+    <!-- Título -->
+    <string name="title_retiros">Administración de Retiros</string>
+
+
+
+    <!-- Retiro 1 -->
+    <string name="retiro1_nombre">Caleb Castro</string>
+    <string name="retiro1_monto">Monto a retirar: $15</string>
+    <string name="retiro1_banco">Banco Pichincha C.A.</string>
+
+    <!-- Retiro 2 -->
+    <string name="retiro2_nombre">Susana Soria</string>
+    <string name="retiro2_monto">Monto a retirar: $100</string>
+    <string name="retiro2_banco">Banco Pichincha C.A.</string>
+
+    <!-- Retiro 3 -->
+    <string name="retiro3_nombre">Mar Malek</string>
+    <string name="retiro3_monto">Monto a retirar: $40</string>
+    <string name="retiro3_banco">Banco Guayaquil S.A.</string>
+
+    <!-- Retiro 4 -->
+        <string name="retiro4_nombre">Oscar Ortiz</string>
+        <string name="retiro4_monto">Monto a retirar: $5</string>
+    <string name="retiro4_banco">Banco Pichincha C.A.</string>
+
+
 
 </resources>
