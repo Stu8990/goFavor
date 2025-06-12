@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
 
     <color name="colorBackground">#2B2B2B</color>    <!-- gris oscuro -->
-    <color name="colorPrimary">#1CF580</color>       <!-- verde neón -->
+    <color name="App_colorPrimary">#1CF580</color>       <!-- verde neón -->
     <color name="colorSecondary">#007BFF</color>     <!-- azul brillante -->
     <color name="white">#FFFFFF</color>
 
@@ -19,9 +19,10 @@
         <!-- Campos de entrada (ligeramente más claro) -->
     <color name="bgField">#383838</color>
         <!-- Verde neón (primario) -->
+    <color name="bgIcono">#FFBF00</color>
 
+    <color name="app_red">#E83F6F</color>
+    <color name="bgField2">#801CEF7E</color>
 
-
-
-
+    <color name="bgField3">#434242</color>
 </resources>

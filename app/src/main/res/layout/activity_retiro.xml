@@ -16,7 +16,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        >
 
         <!-- Flecha atrás -->
         <LinearLayout
@@ -52,7 +51,7 @@
 
                 <TextView
                     android:id="@+id/textTitle"
-                    android:layout_width="0dp"
+                    android:layout_width="248dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/title_retiro"
@@ -272,7 +271,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="clip_horizontal|center_vertical"
-                        android:tint="@color/white"
+                        app:tint="@color/white"
                         app:srcCompat="@drawable/bxs_camera" />
 
                     <Button

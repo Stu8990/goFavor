@@ -13,6 +13,45 @@
         android:theme="@style/Theme.GoFavor"
         tools:targetApi="31">
         <activity
+            android:name=".Ganancias"
+            android:exported="false" />
+        <activity
+            android:name=".Recarga"
+            android:exported="false" />
+        <activity
+            android:name=".Retiro"
+            android:exported="false" />
+        <activity
+            android:name=".Chats"
+            android:exported="false" />
+        <activity
+            android:name=".Favores"
+            android:exported="false" />
+        <activity
+            android:name=".Principal"
+            android:exported="false" />
+        <activity
+            android:name=".ChatEspecifico"
+            android:exported="false" />
+        <activity
+            android:name=".NuevaTarjeta"
+            android:exported="false" />
+        <activity
+            android:name=".NuevaCuenta"
+            android:exported="false" />
+        <activity
+            android:name=".Solicitar_Favores"
+            android:exported="false" />
+        <activity
+            android:name=".Favor_sin_oferta"
+            android:exported="false" />
+        <activity
+            android:name=".Favor"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilAdmin"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">
