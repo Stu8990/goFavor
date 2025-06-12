@@ -78,7 +78,6 @@
                     android:autofillHints="emailAddress"
                     android:backgroundTint="#1CF580"
                     android:hint="@string/hint_email"
-                    android:hintTextColor="#1CF580"
                     android:inputType="textEmailAddress"
                     android:textColor="#FFFFFF"
                     android:textColorHint="#1CF580"
@@ -108,7 +107,6 @@
                     android:autofillHints="password"
                     android:backgroundTint="#1CF580"
                     android:hint="@string/hint_password"
-                    android:hintTextColor="#1CF580"
                     android:inputType="textPassword"
                     android:textColor="#FFFFFF"
                     android:textColorHint="#1CF580"
@@ -132,8 +130,7 @@
                 android:gravity="end"
                 android:text="@string/forgot_password"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:paintFlags="underline" />
+                android:textSize="14sp"/>
         </LinearLayout>
 
         <Space

@@ -1,4 +1,9 @@
 <resources>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
     <string name="app_name">GoFavor</string>
     <string name="greeting">Hola, otra vez</string>
     <string name="hint_email">Correo</string>
@@ -84,7 +89,11 @@
 
     <!-- Título -->
     <string name="title_retiro">Retiro</string>
-
+    <string name="administracion_retiros">Administración de Retiros</string>
+    <string name="monto_a_retirar">Monto a retirar: %1$s</string>
+    <!-- Bancos -->
+    <string name="banco_pichincha">Banco Pichincha C.A.</string>
+    <string name="banco_guayaquil">Banco Guayaquil S.A.</string>
     <!-- Labels -->
     <string name="label_nombre">Nombre</string>
     <string name="label_monto">Monto</string>
